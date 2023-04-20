@@ -18,5 +18,6 @@
 
 - import_playbook: Tasks/InstallApache2.yml
 - import_playbook: Tasks/InstallPhp.yml
-- import_playbook: Tasks/InstallCertBot.yml
+
+- import_playbook: Tasks/InstallMediaWiki.yml
 

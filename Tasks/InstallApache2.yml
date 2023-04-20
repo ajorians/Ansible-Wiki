@@ -46,7 +46,7 @@
     replace:
       path: /etc/apache2/default-server.conf
       regexp: 'Options None'
-      replace: 'Options Al'
+      replace: 'Options All'
 
   - name: Start Apache2 service
     ansible.builtin.systemd:

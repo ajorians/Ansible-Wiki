@@ -1,0 +1,7 @@
+# Run with:
+# ansible-playbook -i inventory.ini MediaWikiSetupSteps.yml
+
+---
+- import_playbook: ServerSetup/InstallSemanticRating.yml
+- import_playbook: ServerSetup/SetMediaWikiLogo.yml
+
